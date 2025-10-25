@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e8f6f3;
+  margin: 0;
+  padding: 0;
+  color: #2d3a3a;
+  text-align: center;
+}
+
+header {
+  background: #009688;
+  color: white;
+  padding: 1rem;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+nav {
+  background: #b2dfdb;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav button {
+  border: none;
+  background: #00796b;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #004d40;
+}
+
+main {
+  padding: 1rem;
+}
+
+.screen {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+input, button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button#saveMedicine {
+  background: #00796b;
+  color: white;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #009688;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.voice-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#voiceBtn {
+  background: #ff7043;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  padding: 0.6rem 0.8rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+#voiceBtn:hover {
+  background: #e64a19;
+}
